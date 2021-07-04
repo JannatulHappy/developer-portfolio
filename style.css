@@ -1,47 +1,80 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin:0px;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
-h1{
-    font-size: 43px;
+h1 {
+  font-size: 43px;
 }
-.orange-color{
-    color:orange;
+h2 {
+  font-size: 40px;
 }
-section{
-    display: flex;
-    padding-bottom: 120px;
+.orange-color {
+  color: orange;
 }
-.half-width{
-    width:50%;
-    padding-left: 6%;
-    padding-right: 2%;
+.flexible-container {
+  display: flex;
+  padding-bottom: 120px;
 }
-.half-width img{
-    width:80%;
-    padding-top:30px;
+.half-width {
+  width: 50%;
+  padding-left: 6%;
+  padding-right: 2%;
 }
-.link-button{
-    text-decoration:none ;
-    background-image: linear-gradient(orange, tomato);
-    color:white;
-    font-weight: 700;
-    padding:10px 40px;
-    border-radius: 7px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    
+.half-width img {
+  width: 80%;
+  padding-top: 30px;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 7px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-.dream-big{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.ex {
+  text-align: center;
+}
+.experience-area .half-width {
+}
+.course-item {
+  box-shadow: 10px 10px 30px gray;
+  width: 40%;
+  margin-right: 4%;
+  margin-left: 4%;
+  padding: 8px 8px 30px;
+  border-radius: 5px;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
 
+#guiter-course {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,tomato);
+    border-image-slice: 1;
+  }
+  
+
+#piano-course {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
